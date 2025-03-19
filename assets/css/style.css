@@ -2,3 +2,40 @@
     font-family: "Roboto";
     src: url("../fonts/Roboto-Regular.ttf") format("truetype");
 }
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+
+/* pink: #FF4676
+blue: #68D8EE
+yellow: #FFE17A
+purple: #DB7CF2 */
