@@ -60,6 +60,7 @@ h1 {
 
 h2 {
     font-size: 28px;
+    text-align: center;
 }
 
 h3 {
@@ -140,10 +141,10 @@ h3 {
 
 .accomp-content {
     display: flex;
-    width: 60% auto;
+    width: 70% auto;
     justify-content: center;
     text-align: center;
-    gap: 7rem;
+    gap: 15rem;
     line-height: 100%;
     margin-top: 3rem;
 }
@@ -155,11 +156,28 @@ h3 {
     display: block;
     background-color: #68d8ee;
     z-index: 1;
+  */
 }
 
 .pepp.2:after {
     content: ""
-    backgr
 }
-yellow: #FFE17A
-purple: #DB7CF2
+/* yellow: #FFE17A
+purple: #DB7CF2 */
+
+.temoins {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.carte {
+    border: 1px solid #68d8ee;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 8px;
+}
