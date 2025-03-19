@@ -66,6 +66,36 @@ h3 {
     font-size: 24px;
 }
 
+.approchetitre {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.notre-approche {
+    width: 70%;
+}
+.approche-content {
+    display: flex;
+    width: 60% auto;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.approche-content img {
+    width: 30%;
+}
+
+.approche-vous {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.approche1 p::before {
+    content: "-";
+    padding-right: 5px;
+}
 
 /* pink: #FF4676
 blue: #68D8EE
