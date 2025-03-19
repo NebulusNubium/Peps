@@ -149,19 +149,23 @@ h3 {
     margin-top: 3rem;
 }
 
+.pepp {
+    position: relative;
+    z-index: 2;
+}
+
 .pepp:after {
     content: "";
     width: 200px;
     height: 15px;
     display: block;
     background-color: #68d8ee;
-    z-index: 1;
-  */
+    z-index: -5;
+    position:absolute;
+    bottom: 1%;
+    
 }
 
-.pepp.2:after {
-    content: ""
-}
 /* yellow: #FFE17A
 purple: #DB7CF2 */
 
