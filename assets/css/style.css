@@ -133,7 +133,33 @@ h3 {
     margin-top: 3rem;
     text-align: center;
 }
-/* pink: #FF4676
-blue: #68D8EE
+
+#accompagnements {
+    margin-top: 10rem;
+}
+
+.accomp-content {
+    display: flex;
+    width: 60% auto;
+    justify-content: center;
+    text-align: center;
+    gap: 7rem;
+    line-height: 100%;
+    margin-top: 3rem;
+}
+
+.pepp:after {
+    content: "";
+    width: 200px;
+    height: 15px;
+    display: block;
+    background-color: #68d8ee;
+    z-index: 1;
+}
+
+.pepp.2:after {
+    content: ""
+    backgr
+}
 yellow: #FFE17A
-purple: #DB7CF2 */
+purple: #DB7CF2
