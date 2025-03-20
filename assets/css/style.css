@@ -283,6 +283,150 @@ purple: #DB7CF2 */
     padding-left: 1rem; 
 }
 
+
+@media screen and (max-width: 760px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        font-size: 26px;
+    }
+    
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .img {
+        padding-left: 2rem;
+        width: 20%;
+    }
+    .banner {
+        height: 50vh;
+    }
+    
+    h1 {
+        font-size: 30px;
+        width: 95%;
+    }
+    
+    .notre-approche {
+        width: 90% auto;
+    }
+    .approche-content {
+        flex-direction: column;
+        width: 100%;
+        gap: 3rem;
+    }
+    
+    .approche-content img {
+        width: 80%;
+    }
+    
+    .approche-vous {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    h3 {
+        font-size: 20px;
+        width: 100%;
+    }
+    
+    .approche1 p {
+        line-height: 90%;
+        width: 90%;
+    }
+    
+    .approche1.bot {
+        padding-bottom: 0;
+    }
+
+.met-cont {
+    width: 90%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.accomp-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 80% auto;
+    gap: 4rem;
+}
+
+.pepp {
+    position: relative;
+    z-index: 2;
+}
+
+.pepp:after {
+    content: "";
+    width: 200% auto;
+    height: 10px;
+    bottom: -30%;
+    left: 37%;
+}
+
+.temoin-img {
+    right: 5%;
+}
+
+.blog-content {
+    gap: 3rem;
+}
+
+.article {
+    flex-direction: column;
+    width: 90%;
+    gap: 0;
+}
+
+.superpouvoir-img{
+    width: 90%;
+    overflow: hidden;
+}
+.superpouvoir-img.ensemble {
+    width: 90%;
+}
+
+.article-content:after {
+    content: "";
+    margin-top: 3rem;
+}
+
+.footer {
+    gap: 2rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+.topfoot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 0rem;
+}
+
+.contactez-nous {
+    border-left: 0px solid black;
+    text-align: center;
+    padding: 0;
+}
+
+.botfoot {
+    display: flex;
+    align-items: center;
+    padding-right: 2rem;
+}
+.bar {
+    border-left: 0px solid rgb(0, 0, 0);
+    padding-left: 0rem; 
+    text-align: center;
+}
+
+}
+
+
 @media screen and (max-width: 400px) {
     .header {
         flex-direction: column;
