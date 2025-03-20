@@ -84,17 +84,21 @@ h3 {
 }
 
 .approche-content img {
-    width: 30%;
-}
-
-.approche-conten::after {
-    width: 20% auto;
+    width: 40%;
 }
 
 .approche-vous {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 40%;
+}
+
+.approche1 p {
+    line-height: 50%;
+}
+
+.approche1.bot {
+    padding-bottom: 2rem;
 }
 
 .approche1 p::before {
@@ -103,7 +107,7 @@ h3 {
 }
 
 #ligne {
-    margin: 3rem;
+    margin: 5rem;
     display: flex;
     justify-content: center;
 }
@@ -124,7 +128,7 @@ h3 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
+    gap: 2rem;
 }
 
 .met-cont {
@@ -184,7 +188,26 @@ purple: #DB7CF2 */
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 8px;
+    padding: 1rem;
+    position: relative;
+}
+
+.nom {
+    line-height: 20%;
+    margin-top: 1rem;
+}
+
+.temoin-img {
+    margin-bottom: 2rem;
+    overflow-y: visible;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 3%;
+    right: 22%;
+}
+
+.temoin-img img {
+    width: 70%;
 }
 
 .blog-content {
@@ -203,8 +226,12 @@ purple: #DB7CF2 */
 }
 
 #superpouvoir-img{
-    max-width: 15vw;
-    max-height: 15vh;
+    max-width: 10vw;
+    max-height: 10vh;
+    height: 10vh;
+}
+#superpouvoir-img img{
+    width: 15vw;
     height: 15vh;
 }
 .article img {
