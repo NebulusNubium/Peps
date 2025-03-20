@@ -423,6 +423,8 @@ purple: #DB7CF2 */
 
 .botfoot {
     display: flex;
+    align-items: center;
+    padding-right: 2rem;
 }
 .bar {
     border-left: 0px solid rgb(0, 0, 0);
