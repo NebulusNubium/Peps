@@ -16,9 +16,10 @@ body {
 
 .img {
     padding-left: 2rem;
+    width: 30%;
 }
 .img img {
-    width: 50%;
+    width: 100%;
 }
 
 ul {
@@ -26,9 +27,9 @@ ul {
     align-items: center;
     justify-content: center;
     list-style: none;
-    gap: 10px;
+    gap: 2rem;
     padding: 1rem, 1rem;
-    
+    padding-top: 1rem;
 }
 
 a {
@@ -94,7 +95,8 @@ h3 {
 }
 
 .approche1 p {
-    line-height: 50%;
+    line-height: 70%;
+    width: 80%;
 }
 
 .approche1.bot {
@@ -279,4 +281,91 @@ purple: #DB7CF2 */
 .bar {
     border-left: 2px solid rgb(0, 0, 0);
     padding-left: 1rem; 
+}
+
+@media screen and (max-width: 400px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .img {
+        padding-left: 2rem;
+        width: 30%;
+    }
+    .banner {
+        height: 50vh;
+    }
+    
+    h1 {
+        font-size: 30px;
+        width: 95%;
+    }
+    
+    .notre-approche {
+        width: 90% auto;
+    }
+    .approche-content {
+        flex-direction: column;
+        width: 100%;
+        gap: 3rem;
+    }
+    
+    .approche-content img {
+        width: 80%;
+    }
+    
+    .approche-vous {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    h3 {
+        font-size: 20px;
+        width: 100%;
+    }
+    
+    .approche1 p {
+        line-height: 90%;
+        width: 90%;
+    }
+    
+    .approche1.bot {
+        padding-bottom: 0;
+    }
+
+.met-cont {
+    width: 90%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.accomp-content {
+    flex-wrap: wrap;
+    width: 80% auto;
+    gap: 4rem;
+    line-height: 100%;
+    margin-top: 3rem;
+}
+
+.pepp {
+    position: relative;
+    z-index: 2;
+}
+
+.pepp:after {
+    content: "";
+    width: 200px;
+    height: 15px;
+    display: block;
+    background-color: #68d8ee;
+    z-index: -5;
+    position:absolute;
+    bottom: 1%;
+    
+}
 }
