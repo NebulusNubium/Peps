@@ -73,9 +73,7 @@ h3 {
     padding: 0;
     margin: 0;
 }
-.notre-approche {
-    width: 70%;
-}
+
 .approche-content {
     display: flex;
     width: 60% auto;
@@ -84,8 +82,12 @@ h3 {
     gap: 3rem;
 }
 
-.approche-content img {
+.appimg {
     width: 40%;
+}
+
+.approche-content img {
+    width: 100%;
 }
 
 .approche-vous {
@@ -164,13 +166,20 @@ h3 {
     content: "";
     width: 200px;
     height: 15px;
-    display: block;
     background-color: #68d8ee;
     z-index: -5;
     position:absolute;
     bottom: 1%;
+    left: 50%;
 }
 
+.pepp.deux:after {
+    background-color: #FFE17A;
+}
+
+.pepp.trois:after {
+    background-color: #DB7CF2;
+}
 /* yellow: #FFE17A
 purple: #DB7CF2 */
 
