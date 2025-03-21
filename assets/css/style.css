@@ -145,14 +145,15 @@ h3 {
 
 #accompagnements {
     margin-top: 10rem;
+    width: 90%;
 }
 
 .accomp-content {
     display: flex;
-    width: 70% auto;
+    width: 100%;
     justify-content: center;
     text-align: center;
-    gap: 15rem;
+    gap: 5rem;
     line-height: 100%;
     margin-top: 3rem;
 }
@@ -175,13 +176,14 @@ h3 {
 
 .pepp.deux:after {
     background-color: #FFE17A;
+    left: 10%;
 }
 
 .pepp.trois:after {
     background-color: #DB7CF2;
+    left: -5%;
+    width: 350px;
 }
-/* yellow: #FFE17A
-purple: #DB7CF2 */
 
 .temoins {
     display: flex;
