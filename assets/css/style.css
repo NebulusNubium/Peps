@@ -97,7 +97,7 @@ h3 {
 }
 
 .approche1 p {
-    line-height: 70%;
+    line-height: 90%;
     width: 80%;
 }
 
@@ -165,12 +165,12 @@ h3 {
 .pepp:after {
     content: "";
     width: 200px;
-    height: 15px;
+    height: 10px;
     background-color: #68d8ee;
     z-index: -5;
     position:absolute;
-    bottom: 1%;
-    left: 50%;
+    bottom: -5%;
+    left: 0%;
 }
 
 .pepp.deux:after {
@@ -303,7 +303,7 @@ purple: #DB7CF2 */
         width: 40%;
         margin-top: 2rem;
     }
-    }
+
     .banner {
         height: 50vh;
     }
@@ -345,125 +345,124 @@ purple: #DB7CF2 */
         padding-bottom: 0;
     }
 
-.met-cont {
-    width: 90%;
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.accomp-content {
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 80% auto;
-    gap: 4rem;
-}
-
-.pepp {
-    position: relative;
-    z-index: 2;
-}
-
-.pepp:after {
-    content: "";
-    width: 200% auto;
-    height: 10px;
-    bottom: -30%;
-    left: 37%;
-}
-
-.temoin-img {
-    right: 5%;
-}
-
-.blog-content {
-    gap: 3rem;
-}
-
-.article {
-    flex-direction: column;
-    width: 90%;
-    gap: 0;
-}
-
-.superpouvoir-img{
-    width: 90%;
-    overflow: hidden;
-}
-.superpouvoir-img.ensemble {
-    width: 90%;
-}
-
-.article-content:after {
-    content: "";
-    margin-top: 3rem;
-}
-
-.footer {
-    gap: 2rem;
-    margin-top: 1rem;
-    padding-top: 1rem;
-}
-
-.topfoot {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    padding-left: 0rem;
-}
-
-.contactez-nous {
-    border-left: 0px solid black;
-    text-align: center;
-    padding: 0;
-}
-
-.botfoot {
-    display: flex;
-    align-items: center;
-    padding-right: 2rem;
-}
-.bar {
-    border-left: 0px solid rgb(0, 0, 0);
-    padding-left: 0rem; 
-    text-align: center;
-}
-
-@media screen and (max-width: 400px) {
-
-    .img {
-        padding-left: 7rem;
+    .met-cont {
+        width: 90%;
+        padding-left: 0;
+        padding-right: 0;
     }
 
-.pepp {
-    position: relative;
-    z-index: 2;
-    width: 70%;
-    padding-left: 4rem;
+    .accomp-content {
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 80% auto;
+        gap: 4rem;
+    }
+
+    .pepp {
+        position: relative;
+        z-index: 2;
+    }
+
+    .pepp:after {
+        content: "";
+        width: 200% auto;
+        height: 10px;
+        bottom: -30%;
+        left: 37%;
+    }
+
+    .temoin-img {
+        right: 5%;
+    }
+
+    .blog-content {
+        gap: 3rem;
+    }
+
+    .article {
+        flex-direction: column;
+        width: 90%;
+        gap: 0;
+    }
+
+    .superpouvoir-img{
+        width: 90%;
+        overflow: hidden;
+    }
+    .superpouvoir-img.ensemble {
+        width: 90%;
+    }
+
+    .article-content:after {
+        content: "";
+        margin-top: 3rem;
+    }
+
+    .footer {
+        gap: 2rem;
+        margin-top: 1rem;
+        padding-top: 1rem;
+    }
+
+    .topfoot {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding-left: 0rem;
+    }
+
+    .contactez-nous {
+        border-left: 0px solid black;
+        text-align: center;
+        padding: 0;
+    }
+
+    .botfoot {
+        display: flex;
+        align-items: center;
+        padding-right: 2rem;
+    }
+    .bar {
+        border-left: 0px solid rgb(0, 0, 0);
+        padding-left: 0rem; 
+        text-align: center;
+    }
 }
+    @media screen and (max-width: 400px) {
 
-.pepp:after {
-    content: "";
-    height: 10px;
-    width: 250px;
-    bottom: -30%;
-    left: 20%;
-}
+        .img {
+            padding-left: 7rem;
+        }
+
+    .pepp {
+        position: relative;
+        z-index: 2;
+        width: 70%;
+        padding-left: 4rem;
+    }
+
+    .pepp:after {
+        content: "";
+        height: 10px;
+        width: 250px;
+        bottom: -30%;
+        left: 20%;
+    }
 
 
-.temoins {
-    flex-direction: column;
-    gap: 3rem;
-    margin-top: 4rem;
-    margin-bottom: -3rem;
-}
+    .temoins {
+        flex-direction: column;
+        gap: 3rem;
+        margin-top: 4rem;
+        margin-bottom: -3rem;
+    }
 
-.carte {
-    width: 80%;
-}
+    .carte {
+        width: 80%;
+    }
 
-.temoin-img {
-    right: 27%;
-}
-
+    .temoin-img {
+        right: 27%;
+    }
 }
